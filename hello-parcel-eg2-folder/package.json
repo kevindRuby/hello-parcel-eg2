@@ -1,15 +1,14 @@
 {
-  "name": "hello-parcel-eg2-folder",
+  "name": "hello-parcel-eg2",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/main.html",
+    "build": "parcel build src/main.html"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "dependencies": {},
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.0.0"
   }
 }
